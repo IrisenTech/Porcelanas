@@ -40,6 +40,7 @@ export function ItemCard({ item, isSelected, onToggleSelect }: Props) {
               src={primary.dataUrl}
               alt={`Ítem ${item.itemNumber}`}
               loading="lazy"
+              data-rot={primary.rotation ?? 0}
             />
           ) : (
             <div

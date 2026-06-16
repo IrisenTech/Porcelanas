@@ -4,6 +4,7 @@ export interface CatalogImage {
   id: string;          // unique image id
   opfsName: string;    // filename in OPFS
   dataUrl?: string;    // ephemeral, loaded at runtime
+  rotation?: number;   // display rotation in degrees: 0 | 90 | 180 | 270
 }
 
 export interface CatalogItem {

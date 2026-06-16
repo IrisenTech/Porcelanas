@@ -52,19 +52,28 @@ export async function toWebP(
 export async function canvasCompress(
   src: string,
   width = 200,
-  quality = 0.6
+  quality = 0.6,
+  rotation = 0
 ): Promise<string> {
   return new Promise((resolve, reject) => {
     const img = new Image();
     img.crossOrigin = 'anonymous';
     img.onload = () => {
       const scale = width / img.width;
+      const w = width;
       const h = Math.round(img.height * scale);
+
+      // Normalize rotation to 0/90/180/270; swap canvas dims for quarter turns.
+      const rot = (((rotation % 360) + 360) % 360);
+      const swap = rot === 90 || rot === 270;
+
       const canvas = document.createElement('canvas');
-      canvas.width = width;
-      canvas.height = h;
+      canvas.width = swap ? h : w;
+      canvas.height = swap ? w : h;
       const ctx = canvas.getContext('2d')!;
-      ctx.drawImage(img, 0, 0, width, h);
+      ctx.translate(canvas.width / 2, canvas.height / 2);
+      ctx.rotate((rot * Math.PI) / 180);
+      ctx.drawImage(img, -w / 2, -h / 2, w, h);
       resolve(canvas.toDataURL('image/jpeg', quality));
     };
     img.onerror = () => reject(new Error('Image load failed'));

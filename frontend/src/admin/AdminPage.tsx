@@ -83,6 +83,22 @@ export function AdminPage() {
     ));
   };
 
+  // Rotate an assigned image by +90° (cycles 0 → 90 → 180 → 270 → 0).
+  const rotateImage = (itemId: string, imgId: string) => {
+    updateItems(items.map(i =>
+      i.id === itemId
+        ? {
+            ...i,
+            images: i.images.map(img =>
+              img.id === imgId
+                ? { ...img, rotation: (((img.rotation ?? 0) + 90) % 360) }
+                : img
+            ),
+          }
+        : i
+    ));
+  };
+
   const updateItems = (updated: CatalogItem[]) => {
     setItems(updated);
     const store = loadCatalog();
@@ -304,7 +320,7 @@ export function AdminPage() {
                         {/* Primary thumbnail preview (collapsed only) */}
                         <div className="slot-preview-thumb">
                           {primaryImg ? (
-                            <img src={primaryImg.dataUrl} alt="" />
+                            <img src={primaryImg.dataUrl} alt="" data-rot={primaryImg.rotation ?? 0} />
                           ) : (
                             <div className="slot-preview-empty">
                               <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" style={{ width: 16, height: 16, stroke: 'var(--cream-muted)' }}>
@@ -422,7 +438,19 @@ export function AdminPage() {
                             ) : (
                               item.images.map((img, imgIdx) => (
                                 <div key={img.id} className={`slot-thumb ${imgIdx === 0 ? 'slot-thumb-primary' : ''}`}>
-                                  <img src={img.dataUrl} alt="" />
+                                  <img src={img.dataUrl} alt="" data-rot={img.rotation ?? 0} />
+                                  <button
+                                    type="button"
+                                    className="rotate-img"
+                                    onClick={e => { e.stopPropagation(); rotateImage(item.id, img.id); }}
+                                    title="Rotar 90°"
+                                    aria-label="Rotar imagen"
+                                  >
+                                    <svg viewBox="0 0 24 24" fill="none" strokeWidth="2">
+                                      <path d="M21 2v6h-6" strokeLinecap="round" strokeLinejoin="round"/>
+                                      <path d="M3 12a9 9 0 0 1 15-6.7L21 8" strokeLinecap="round" strokeLinejoin="round"/>
+                                    </svg>
+                                  </button>
                                   <div
                                     className="remove-img"
                                     onClick={() => removeImageFromSlot(item.id, img.id)}

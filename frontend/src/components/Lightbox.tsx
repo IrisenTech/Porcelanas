@@ -16,6 +16,7 @@ export function Lightbox({ item, initialIndex = 0, onClose }: Props) {
   const syncUI = useCallback((idx: number) => {
     if (imgRef.current) {
       imgRef.current.src = item.images[idx]?.dataUrl ?? '';
+      imgRef.current.dataset.rot = String(item.images[idx]?.rotation ?? 0);
     }
     if (dotsRef.current) {
       dotsRef.current.querySelectorAll('.lightbox-dot').forEach((dot, i) => {
@@ -91,6 +92,7 @@ export function Lightbox({ item, initialIndex = 0, onClose }: Props) {
             src={item.images[initialIndex]?.dataUrl ?? ''}
             alt={`Ítem ${item.itemNumber}`}
             draggable={false}
+            data-rot={item.images[initialIndex]?.rotation ?? 0}
           />
 
           {hasMultiple && (

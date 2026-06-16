@@ -67,7 +67,7 @@ export async function generateOrderPDF({ selectedItems }: PDFOptions): Promise<B
     const primaryImg = item.images[0];
     if (primaryImg?.dataUrl) {
       try {
-        const thumb = await canvasCompress(primaryImg.dataUrl, 160, 0.55);
+        const thumb = await canvasCompress(primaryImg.dataUrl, 160, 0.55, primaryImg.rotation ?? 0);
         const imgProps = doc.getImageProperties(thumb);
         const ratio = imgProps.width / imgProps.height;
         const tW = cellW - 10;
