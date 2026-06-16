@@ -1,0 +1,474 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "cn37v5srmqgydky8",
+      "itemNumber": "001",
+      "category": "porcelanas",
+      "notes": "Bol Lindner Kueps Bavaria Echt Cobalt, con ribete dorado pintado a mano con diseño de encaje, 128 cm de ancho.",
+      "images": [
+        {
+          "id": "item_001.webp",
+          "opfsName": "item_001.webp",
+          "dataUrl": "/catalog-images/item_001.webp"
+        },
+        {
+          "id": "item_002.webp",
+          "opfsName": "item_002.webp",
+          "dataUrl": "/catalog-images/item_002.webp"
+        }
+      ],
+      "createdAt": 1781633150288
+    },
+    {
+      "id": "ko4a30ptmqgyjmuy",
+      "itemNumber": "002",
+      "category": "porcelanas",
+      "notes": "VINTAGE* Schumann - Echt Cobalt  - platillo para joyas azul y dorado 24cms",
+      "images": [
+        {
+          "id": "item_003.webp",
+          "opfsName": "item_003.webp",
+          "dataUrl": "/catalog-images/item_003.webp"
+        },
+        {
+          "id": "item_004.webp",
+          "opfsName": "item_004.webp",
+          "dataUrl": "/catalog-images/item_004.webp"
+        },
+        {
+          "id": "item_005.webp",
+          "opfsName": "item_005.webp",
+          "dataUrl": "/catalog-images/item_005.webp"
+        }
+      ],
+      "createdAt": 1781633432698
+    },
+    {
+      "id": "nzl3ez54mqgyq9ao",
+      "itemNumber": "003",
+      "category": "porcelanas",
+      "notes": "Estatua de porcelana alemana Wallendorf de una dama bailando, marca de fábrica verde en la base, 32 cm de altura.",
+      "images": [
+        {
+          "id": "item_030.webp",
+          "opfsName": "item_030.webp",
+          "dataUrl": "/catalog-images/item_030.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_032.webp",
+          "opfsName": "item_032.webp",
+          "dataUrl": "/catalog-images/item_032.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_034.webp",
+          "opfsName": "item_034.webp",
+          "dataUrl": "/catalog-images/item_034.webp",
+          "rotation": 90
+        }
+      ],
+      "createdAt": 1781633741712
+    },
+    {
+      "id": "mcos36htmqgz67yt",
+      "itemNumber": "004",
+      "category": "porcelanas",
+      "notes": "Estatuilla de bailarina de porcelana alemana de Wallendorf, con marcas de fábrica verdes en las bases; la más grande mide 26 cm de alto.",
+      "images": [
+        {
+          "id": "item_035.webp",
+          "opfsName": "item_035.webp",
+          "dataUrl": "/catalog-images/item_035.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_036.webp",
+          "opfsName": "item_036.webp",
+          "dataUrl": "/catalog-images/item_036.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_051.webp",
+          "opfsName": "item_051.webp",
+          "dataUrl": "/catalog-images/item_051.webp"
+        }
+      ],
+      "createdAt": 1781634486485
+    },
+    {
+      "id": "bxbnavgamqgz96w8",
+      "itemNumber": "005",
+      "category": "porcelanas",
+      "notes": "Esta figurita de Gerold Porzellan Bavaria, fabricada entre 1937 y 1960, representa a una mujer desnuda con un cervatillo. La estatua de porcelana está hecha y pintada a mano, y suele medir unos 21 cm de altura.",
+      "images": [
+        {
+          "id": "item_037.webp",
+          "opfsName": "item_037.webp",
+          "dataUrl": "/catalog-images/item_037.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_038.webp",
+          "opfsName": "item_038.webp",
+          "dataUrl": "/catalog-images/item_038.webp",
+          "rotation": 90
+        }
+      ],
+      "createdAt": 1781634625064
+    },
+    {
+      "id": "5f6psr3gmqgzg5ha",
+      "itemNumber": "006",
+      "category": "porcelanas",
+      "notes": " Gerold Porzellan (fundada originalmente como Neue Porzellanfabrik Tettau).Lugar de origen: Tettau, Baviera, Alemania.Época de producción: Circa 1937–1949.Estilo/Movimiento: Figuritas de porcelana alemanas Art Déco/de mediados de siglo.Composición: Porcelana esmaltada policromada con un acabado esmaltado selectivo y bizcochado",
+      "images": [
+        {
+          "id": "item_039.webp",
+          "opfsName": "item_039.webp",
+          "dataUrl": "/catalog-images/item_039.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_040.webp",
+          "opfsName": "item_040.webp",
+          "dataUrl": "/catalog-images/item_040.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_048.webp",
+          "opfsName": "item_048.webp",
+          "dataUrl": "/catalog-images/item_048.webp"
+        }
+      ],
+      "createdAt": 1781634949822
+    },
+    {
+      "id": "y0jwzmy7mqgzr46r",
+      "itemNumber": "007",
+      "category": "porcelanas",
+      "notes": "Se trata de una figurita de porcelana Wallendorf de época, fabricada en Alemania, probablemente de la década de 1950. Representa a una bailarina en una pose dinámica de estilo Art Déco, a menudo reconocida como el modelo 1510. La figura presenta detalles pintados a mano, incluyendo un vestido blanco y zapatos de color dorado. 21 cms altura",
+      "images": [
+        {
+          "id": "item_041.webp",
+          "opfsName": "item_041.webp",
+          "dataUrl": "/catalog-images/item_041.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_042.webp",
+          "opfsName": "item_042.webp",
+          "dataUrl": "/catalog-images/item_042.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_050.webp",
+          "opfsName": "item_050.webp",
+          "dataUrl": "/catalog-images/item_050.webp"
+        }
+      ],
+      "createdAt": 1781635461363
+    },
+    {
+      "id": "0weahk5dmqgzutv2",
+      "itemNumber": "008",
+      "category": "porcelanas",
+      "notes": "Porcelana antigua de Schaubach Kunst Wallendorf, procedente de Alemania, que representa a una bailarina sentada con un vestido blanco y zapatos dorados. La figurita está pintada a mano con un acabado brillante y mide aproximadamente entre 7 y 10 pulgadas de alto, dependiendo del modelo específico.",
+      "images": [
+        {
+          "id": "item_043.webp",
+          "opfsName": "item_043.webp",
+          "dataUrl": "/catalog-images/item_043.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_047.webp",
+          "opfsName": "item_047.webp",
+          "dataUrl": "/catalog-images/item_047.webp"
+        }
+      ],
+      "createdAt": 1781635634606
+    },
+    {
+      "id": "gufprrefmqgzzykc",
+      "itemNumber": "009",
+      "category": "porcelanas",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_045.webp",
+          "opfsName": "item_045.webp",
+          "dataUrl": "/catalog-images/item_045.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_049.webp",
+          "opfsName": "item_049.webp",
+          "dataUrl": "/catalog-images/item_049.webp"
+        }
+      ],
+      "createdAt": 1781635873980
+    },
+    {
+      "id": "dml4538amqh005zr",
+      "itemNumber": "010",
+      "category": "porcelanas",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_046.webp",
+          "opfsName": "item_046.webp",
+          "dataUrl": "/catalog-images/item_046.webp"
+        }
+      ],
+      "createdAt": 1781635883607
+    },
+    {
+      "id": "bht4n8yvmqh00wb4",
+      "itemNumber": "011",
+      "category": "porcelanas",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_052.webp",
+          "opfsName": "item_052.webp",
+          "dataUrl": "/catalog-images/item_052.webp"
+        }
+      ],
+      "createdAt": 1781635917712
+    },
+    {
+      "id": "0qeu266nmqh010jy",
+      "itemNumber": "012",
+      "category": "porcelanas",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_053.webp",
+          "opfsName": "item_053.webp",
+          "dataUrl": "/catalog-images/item_053.webp"
+        }
+      ],
+      "createdAt": 1781635923214
+    },
+    {
+      "id": "1d3x6t1xmqh026od",
+      "itemNumber": "014",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_006.webp",
+          "opfsName": "item_006.webp",
+          "dataUrl": "/catalog-images/item_006.webp"
+        }
+      ],
+      "createdAt": 1781635977805
+    },
+    {
+      "id": "d8rug7yqmqh02luc",
+      "itemNumber": "015",
+      "category": "cristaleria",
+      "notes": "Esta bandeja de cristal grueso de estilo vintage presenta un singular diseño de tablero de ajedrez con cuadrados lisos y texturizados alternados. [1, 2] Diseño versátil: Ideal para servir aperitivos, exhibir en una vitrina o como pieza decorativa. Material: Elaborada en cristal grueso y transparente. Características: Asas integradas y borde decorativo dentado.",
+      "images": [
+        {
+          "id": "item_008.webp",
+          "opfsName": "item_008.webp",
+          "dataUrl": "/catalog-images/item_008.webp"
+        }
+      ],
+      "createdAt": 1781635997460
+    },
+    {
+      "id": "dtg9xbqymqh0dn5k",
+      "itemNumber": "016",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_011.webp",
+          "opfsName": "item_011.webp",
+          "dataUrl": "/catalog-images/item_011.webp"
+        },
+        {
+          "id": "item_010.webp",
+          "opfsName": "item_010.webp",
+          "dataUrl": "/catalog-images/item_010.webp"
+        },
+        {
+          "id": "item_009.webp",
+          "opfsName": "item_009.webp",
+          "dataUrl": "/catalog-images/item_009.webp"
+        }
+      ],
+      "createdAt": 1781636512376
+    },
+    {
+      "id": "khlyva6imqh0ei7a",
+      "itemNumber": "017",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_012.webp",
+          "opfsName": "item_012.webp",
+          "dataUrl": "/catalog-images/item_012.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_013.webp",
+          "opfsName": "item_013.webp",
+          "dataUrl": "/catalog-images/item_013.webp",
+          "rotation": 90
+        }
+      ],
+      "createdAt": 1781636552614
+    },
+    {
+      "id": "uv1f2tq0mqh0fvu0",
+      "itemNumber": "018",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_014.webp",
+          "opfsName": "item_014.webp",
+          "dataUrl": "/catalog-images/item_014.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_015.webp",
+          "opfsName": "item_015.webp",
+          "dataUrl": "/catalog-images/item_015.webp",
+          "rotation": 90
+        },
+        {
+          "id": "item_020.webp",
+          "opfsName": "item_020.webp",
+          "dataUrl": "/catalog-images/item_020.webp"
+        }
+      ],
+      "createdAt": 1781636616936
+    },
+    {
+      "id": "ju75plt5mqh0g6tm",
+      "itemNumber": "019",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_018.webp",
+          "opfsName": "item_018.webp",
+          "dataUrl": "/catalog-images/item_018.webp"
+        },
+        {
+          "id": "item_019.webp",
+          "opfsName": "item_019.webp",
+          "dataUrl": "/catalog-images/item_019.webp"
+        },
+        {
+          "id": "item_017.webp",
+          "opfsName": "item_017.webp",
+          "dataUrl": "/catalog-images/item_017.webp"
+        }
+      ],
+      "createdAt": 1781636631178
+    },
+    {
+      "id": "ivjyw206mqh0gt1i",
+      "itemNumber": "020",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_021.webp",
+          "opfsName": "item_021.webp",
+          "dataUrl": "/catalog-images/item_021.webp",
+          "rotation": 270
+        },
+        {
+          "id": "item_022.webp",
+          "opfsName": "item_022.webp",
+          "dataUrl": "/catalog-images/item_022.webp",
+          "rotation": 90
+        }
+      ],
+      "createdAt": 1781636659974
+    },
+    {
+      "id": "mf57jsrumqh0h4ag",
+      "itemNumber": "021",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_024.webp",
+          "opfsName": "item_024.webp",
+          "dataUrl": "/catalog-images/item_024.webp"
+        }
+      ],
+      "createdAt": 1781636674552
+    },
+    {
+      "id": "555mhoummqh0hc1g",
+      "itemNumber": "022",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_025.webp",
+          "opfsName": "item_025.webp",
+          "dataUrl": "/catalog-images/item_025.webp"
+        },
+        {
+          "id": "item_023.webp",
+          "opfsName": "item_023.webp",
+          "dataUrl": "/catalog-images/item_023.webp"
+        },
+        {
+          "id": "item_026.webp",
+          "opfsName": "item_026.webp",
+          "dataUrl": "/catalog-images/item_026.webp"
+        }
+      ],
+      "createdAt": 1781636684596
+    },
+    {
+      "id": "h566cgdwmqh0hko6",
+      "itemNumber": "023",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_028.webp",
+          "opfsName": "item_028.webp",
+          "dataUrl": "/catalog-images/item_028.webp",
+          "rotation": 270
+        },
+        {
+          "id": "item_029.webp",
+          "opfsName": "item_029.webp",
+          "dataUrl": "/catalog-images/item_029.webp",
+          "rotation": 270
+        }
+      ],
+      "createdAt": 1781636695782
+    },
+    {
+      "id": "u6qmf4kzmqh0i6up",
+      "itemNumber": "024",
+      "category": "cristaleria",
+      "notes": "",
+      "images": [
+        {
+          "id": "item_027.webp",
+          "opfsName": "item_027.webp",
+          "dataUrl": "/catalog-images/item_027.webp",
+          "rotation": 270
+        }
+      ],
+      "createdAt": 1781636724529
+    }
+  ]
+}
