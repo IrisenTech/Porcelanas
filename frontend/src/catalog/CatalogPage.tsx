@@ -1,9 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { ItemCard } from './ItemCard';
 import { SelectionBar } from '../components/SelectionBar';
-import { EmailModal } from '../components/EmailModal';
+import { ShareModal } from '../components/ShareModal';
 import { loadCatalog, loadCatalogFromPublic } from '../lib/staticCatalog';
-import { generateOrderPDF, downloadPDF } from '../lib/pdf';
 import { CatalogItem } from '../types';
 
 type Filter = 'all' | 'porcelanas' | 'cristaleria';
@@ -13,8 +12,7 @@ export function CatalogPage() {
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<Filter>('all');
   const [selected, setSelected] = useState<Set<string>>(new Set());
-  const [showEmailModal, setShowEmailModal] = useState(false);
-  const [generatingPDF, setGeneratingPDF] = useState(false);
+  const [showShareModal, setShowShareModal] = useState(false);
 
   // Load catalog: prefer localStorage, fall back to public/catalog.json
   useEffect(() => {
@@ -48,21 +46,6 @@ export function CatalogPage() {
   const clearSelection = () => setSelected(new Set());
 
   const selectedItems = items.filter(i => selected.has(i.id));
-
-  const handleGeneratePDF = async (recipientEmail: string) => {
-    setGeneratingPDF(true);
-    try {
-      const blob = await generateOrderPDF({
-        recipientEmail,
-        selectedItems,
-      });
-      downloadPDF(blob, `pedido-porcelanas-${Date.now()}.pdf`);
-      setShowEmailModal(false);
-      clearSelection();
-    } finally {
-      setGeneratingPDF(false);
-    }
-  };
 
   const porCount = items.filter(i => i.category === 'porcelanas').length;
   const crisCount = items.filter(i => i.category === 'cristaleria').length;
@@ -148,16 +131,17 @@ export function CatalogPage() {
       <SelectionBar
         count={selected.size}
         items={selectedItems}
-        onGenerate={() => setShowEmailModal(true)}
+        onGenerate={() => setShowShareModal(true)}
         onClear={clearSelection}
       />
 
-      {/* Email modal */}
-      {showEmailModal && (
-        <EmailModal
+      {/* Share modal */}
+      {showShareModal && (
+        <ShareModal
           itemCount={selected.size}
-          onConfirm={handleGeneratePDF}
-          onClose={() => setShowEmailModal(false)}
+          selectedItems={selectedItems}
+          onClose={() => setShowShareModal(false)}
+          onDone={() => { setShowShareModal(false); clearSelection(); }}
         />
       )}
     </div>
