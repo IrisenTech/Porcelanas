@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+server/.env
+
+# sharp native binaries (rebuilt per-platform)
+frontend/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+
+# The original raw JPG photos (too large for Git)
+img/
+
+# Raw photo archives (too large for GitHub's 100MB limit)
+*.zip
+
+# Gemini agent files
+.gemini/
